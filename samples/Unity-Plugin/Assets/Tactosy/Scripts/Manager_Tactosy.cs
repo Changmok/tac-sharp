@@ -99,6 +99,18 @@ namespace Tactosy.Unity
             TactosyPlayer.Stop();
         }
 
+        void OnApplicationPause(bool pauseState)
+        {
+            if (pauseState)
+            {
+                OnDisable();
+            }
+            else
+            {
+                OnEnable();
+            }
+        }
+
         void Update()
         {
             if (Input.GetKeyDown("space"))
