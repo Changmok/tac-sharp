@@ -16,6 +16,9 @@ namespace Tactosy.Unity
             public string Path;
         }
 
+        [SerializeField]
+        public bool visualizeMotors;
+
         [Tooltip("Tactosy File Prefix")]
         [SerializeField]
         private string PathPrefix = "Assets/Tactosy/Feedbacks/";
