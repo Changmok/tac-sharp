@@ -70,7 +70,6 @@ namespace Valve.VR.InteractionSystem
 		private Vector3 centerPosition = Vector3.zero;
 
 		SteamVR_Events.Action renderModelLoadedAction;
-
 		
 		//-------------------------------------------------
 		void Awake()
